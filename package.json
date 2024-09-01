@@ -1,0 +1,19 @@
+{
+  "name": "@growp/functions",
+  "version": "0.0.2",
+  "description": "Utility functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Gabriel Sánchez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
